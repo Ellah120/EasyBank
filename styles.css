@@ -335,7 +335,7 @@ footer {
   #header nav {
     display: none;
     position: absolute;
-    top: 60px;
+    top: 50px;
     left: -130px;
   } 
 
@@ -350,7 +350,9 @@ footer {
     color: white;
     background-color: rgb(128, 235, 135);
   }
-
+  #header a {
+    color: black;
+  }
   input[type=checkbox]:checked ~ #navbar{
     display: block;
    }
@@ -521,7 +523,7 @@ footer {
   #header nav {
     display: none;
     position: absolute;
-    top: 60px;
+    top: 50px;
     left: -130px;
   } 
 
@@ -536,7 +538,10 @@ footer {
     border-bottom: 1px solid rgb(134, 202, 242);
     background-color: rgb(128, 235, 135);
   }
-
+  #header a {
+    color: black;
+  }
+  
   input[type=checkbox]:checked ~ #navbar{
     display: block;
    }
